@@ -1,0 +1,36 @@
+ table {
+     border-collapse: collapse;
+ }
+
+ tr,
+ td,
+ th {
+     border: 1px solid black;
+     padding: 20px;
+     width: 100px;
+     text-align: center;
+     box-sizing: border-box;
+ }
+
+ form {
+     padding: 10px;
+     border: 1px solid red;
+     width: 300px;
+ }
+
+ input {
+     width: 100%;
+ }
+
+ table a {
+     text-decoration: none;
+     border: 1px solid #B4B4B4;
+     border-radius: 15px;
+     background: linear-gradient(to bottom, #ededed 0%, #dbdbdb 50%, #a8a8a8 100%);
+     color: #000000;
+     padding: 6px 8px;
+ }
+
+ table a:hover {
+     border-color: #595959;
+ }

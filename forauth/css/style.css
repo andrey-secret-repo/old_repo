@@ -1,0 +1,163 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: #fff; 
+	background-image: linear-gradient(#eee 2px, transparent 5px);
+	background-size: 100% 10px;	
+}
+form{
+	width: 350px; ;
+	padding: 20px ;
+	background: #ecf0f1;
+	box-sizing: border-box;
+	border-radius: 5px;
+	box-shadow: 0 0 25px -1px #848484;
+}
+.back form{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -175px;
+	margin-top: -150px;
+}
+form  *{
+	margin-bottom: 10px ;
+}
+.content form {
+	margin: 20px auto;
+}
+form input{
+	height: 30px;
+	outline: none;
+	padding-left: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+}
+form input[type=submit]{
+	background: #1abc9c;
+	padding: 15px;
+	font-size: 20px;
+	display: block;
+	width: 100%;
+	border: none;
+	color: #fff;
+	border-radius: 5px;
+	line-height: 0px;
+	cursor: pointer;
+}
+input[type="submit"]:hover {
+	background: #1bc6a4;
+}
+.back{
+	width: 100%;
+	height: 100%;
+	background: #ECFF94;
+	position: fixed;
+}
+.container{
+	max-width: 900px;
+	min-height: 200px;
+	margin: 0 auto;
+	box-shadow: 0 0 20px -2px #B3B3B3;
+}
+.head{
+	width: 100%;
+	height: 50px;
+	background: #4a76a8;
+}
+.head ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-around;
+	line-height: 50px;
+}
+.head ul li {
+	width: 100%;
+	text-align: center;
+}
+.head ul a{
+	display: block;
+	text-decoration: none;
+	width: 100%;
+	height: 100%;
+	color: #fff;
+	font-size: 24px;
+}
+.head ul li:hover a{
+	color: #000;
+}
+.head ul li:hover {
+	background: #446D9C;
+}
+.content{
+	overflow: hidden;
+	background: #fff;
+}
+.listuser{
+	background: #DEDEDE;
+}
+.content .photo{
+	width: 300px;
+	box-sizing: border-box;
+	float: left;
+}
+.content .photo img{
+	width: 100%;
+}
+.content .bio {
+	width: 600px;
+	float: right;
+	padding: 0 50px;
+	box-sizing: border-box;
+}
+.content h3{
+	text-align: center;
+	margin: 20px 0;
+	padding: 10px 0;
+	border-bottom: 2px solid #EDEDED;
+}
+.listuser .card{
+	overflow: hidden;
+	box-shadow: 0 0 20px -4px #969696;
+	width: 900px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+	background: #FFFFFF;
+	max-height: 300px;
+
+}
+.listuser .card .photo{
+	width: 300px;
+	float: left;
+}
+.listuser .bio {
+	width: 600px;
+	float: right;
+}
+body > a, .content > a, form a{
+	width: 200px;
+	border: 1px solid #B4B4B4;
+	border-radius: 15px;
+	background: linear-gradient(to bottom, #ededed 0%, #dbdbdb 50%, #a8a8a8 100%);
+	color: #000000;
+	padding: 6px 8px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	margin: 0 auto;
+}
+iframe{
+	border: none;
+	width: 200px;
+	height: 250px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.active{
+	background: #3D6491;
+	color: #000 !important;
+}

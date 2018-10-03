@@ -1,0 +1,20 @@
+{
+    "name": "Symfony",
+    "authors": [
+        {
+            "name": "Evgeny Trifonov",
+            "email": "this.paladin@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^4.1",
+        "symfony/var-dumper": "^4.1",
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/finder": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

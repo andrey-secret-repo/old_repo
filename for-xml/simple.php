@@ -1,0 +1,18 @@
+<?php
+header ("Content-Type:text/xml");
+ini_set("display_errors", "1");
+
+$a = 
+<<<XML
+<?xml version="1.0"?>
+<users><user><id>40</id><login>andrey</login><password>e88184869b2a0ae3f054131bc5389812</password><name>&#x410;&#x43D;&#x434;&#x440;&#x435;&#x439;</name><surname>&#x410;&#x43D;&#x434;&#x440;&#x438;&#x435;&#x43D;&#x43A;&#x43E;</surname><patronymic>&#x412;&#x438;&#x442;&#x430;&#x43B;&#x44C;&#x435;&#x432;&#x438;&#x447;</patronymic><age>22</age><photo>C:/OSPanel/domains/forauth/img/b4afd9a91d9c176d2c03494106782ca7.jpg</photo><email>andrey_fist@inbox.ru</email><address>&#x41A;&#x440;&#x430;&#x43C;&#x430;&#x442;&#x43E;&#x440;&#x441;&#x43A;</address></user><user><id>42</id><login>sergio</login><password>70ea1e22b80d06f403e6175148b7f7c7</password><name>&#x421;&#x435;&#x440;&#x433;&#x435;&#x439;</name><surname>&#x421;&#x435;&#x440;&#x433;&#x435;&#x435;&#x432;</surname><patronymic>&#x421;&#x435;&#x440;&#x433;&#x435;&#x435;&#x432;&#x438;&#x447;</patronymic><age>45</age><photo>C:/OSPanel/domains/forauth/img/51af063cb1186d355972266a62c3e8f9.jpg</photo><email>serg@php.com</email><address>&#x41A;&#x440;&#x430;&#x43C;&#x430;&#x442;&#x43E;&#x440;&#x441;&#x43A;</address></user><user><id>43</id><login>kirillo</login><password>9c27e52c37e13f121451b77cb70003f0</password><name>&#x41A;&#x438;&#x440;&#x438;&#x43B;&#x43B;</name><surname>&#x41A;&#x438;&#x440;&#x438;&#x43B;&#x43B;&#x43E;&#x432;</surname><patronymic>&#x41A;&#x438;&#x440;&#x438;&#x43B;&#x43B;&#x43E;&#x432;&#x438;&#x447;</patronymic><age>89</age><photo>C:/OSPanel/domains/forauth/img/6b1257ad8c70297454dc2bcaecda1aee.jpg</photo><email>kirill_original@mail.com</email><address>&#x421;&#x43B;&#x430;&#x432;&#x44F;&#x43D;&#x441;&#x43A;</address></user><user><id>44</id><login>oleg</login><password>7959bae6207289be779123922b04dd64</password><name>&#x41E;&#x43B;&#x435;&#x433;</name><surname>&#x41E;&#x43B;&#x435;&#x433;&#x438;&#x43E;</surname><patronymic>&#x41E;&#x43B;&#x435;&#x433;&#x43E;&#x432;&#x438;&#x447;</patronymic><age>44</age><photo>C:/OSPanel/domains/forauth/img/b3fed5d015ac196b5944f6606a142bf7.jpg</photo><email>oleg.php@mail.com</email><address>&#x41A;&#x43E;&#x43D;&#x441;&#x442;&#x430;&#x43D;&#x442;&#x438;&#x43D;&#x43E;&#x432;&#x43A;&#x430;</address></user><user><id>61</id><login>hardlogin</login><password>ce287d3075b5a11a11781575d8c3d00d</password><name>&#x418;&#x43C;&#x44F;</name><surname>&#x424;&#x430;&#x43C;&#x438;&#x43B;&#x438;&#x44F;</surname><patronymic>&#x41E;&#x442;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43E;</patronymic><age>0</age><photo>C:/OSPanel/domains/forauth/img/34f991d269add5ec52732d2b4e7490b4.jpg</photo><email>Email@mail.com</email><address>&#x410;&#x434;&#x440;&#x435;&#x441;&#x441;</address></user><user><id>62</id><login>hardlogin45</login><password>530890990a28d47b5265f33e948c386d</password><name>&#x418;&#x43C;&#x44F;</name><surname>&#x424;&#x430;&#x43C;&#x438;&#x43B;&#x438;&#x44F;</surname><patronymic>&#x41E;&#x442;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43E;</patronymic><age>0</age><photo></photo><email>Email@mail.com</email><address>&#x410;&#x434;&#x440;&#x435;&#x441;&#x441;</address></user><user><id>63</id><login>hardlogin1</login><password>4cf90d76a88549d3295c5f6d6754bea7</password><name>&#x418;&#x43C;&#x44F;</name><surname>&#x424;&#x430;&#x43C;&#x438;&#x43B;&#x438;&#x44F;</surname><patronymic>&#x41E;&#x442;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43E;</patronymic><age>0</age><photo>C:/OSPanel/domains/forauth/img/935d58ae7625b0a769161c4e84cd48d8.jpg</photo><email>Email@mail.com</email><address>&#x410;&#x434;&#x440;&#x435;&#x441;&#x441;</address></user></users>
+
+XML;
+
+?>
+<?php 
+
+$users = new SimpleXMLElement($a);
+echo $a;
+
+?>
